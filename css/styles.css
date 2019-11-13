@@ -158,3 +158,9 @@ p {
 .footer-icon {
   margin: 0 0.65rem 1.5rem;
 }
+
+@media (max-width: 500px) {
+  #pricing {
+    padding: 100px 0;
+  }
+}
