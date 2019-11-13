@@ -13,9 +13,14 @@ h1 {
   line-height: 1.5;
 }
 
+h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 .container-fluid {
-  padding: 3% 15%;
-  overflow: hidden;
+  padding: 3% 15% 7%;
 }
 
 .navbar {
@@ -44,26 +49,25 @@ h1 {
   padding-bottom: 5rem;
 }
 
-.image-main-container {
-  text-align: center;
-}
-
 .phone-app-preview {
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
 /* Buttons */
-
 .download-button {
   margin: 5% 3% 5% 0;
 }
 
 /* Feature Section */
-
 #features {
+  position: relative;
   padding: 5rem 0;
   text-align: center;
+  background-color: white;
+  z-index: 1;
 }
 
 .feature-icon {
@@ -82,4 +86,75 @@ h3 {
 
 p {
   color: #8f8f8f;
+}
+
+/* Testimonial Section */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-image {
+  margin: 20px;
+  width: 10%;
+  border-radius: 50%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px 20px;
+}
+
+/* Pricing Section */
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1030px) {
+  #title {
+    text-align: center;
+  }
+
+  .phone-app-preview {
+    transform: rotate(0deg);
+    position: static;
+  }
+}
+
+/* Call To Action Section */
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+}
+
+.cta-header {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Footer Section */
+#footer {
+  text-align: center;
+  padding: 5% 0;
+}
+
+.footer-icon {
+  margin: 0 0.65rem 1.5rem;
 }
